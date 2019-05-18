@@ -29,7 +29,7 @@ I'm world manager bot maintained by [this awesome person](tg://user?id={}).
 
 You can find the list of available commands with /help.
 
-[Click here to add me in your groups and Enjoy the World 😎](https://telegram.me/ThaNos_TheBot?startgroup=add)
+[Click here to add me in your groups and Enjoy the World 😎](https://telegram.me/MiaKhalifa_TheBot?startgroup=add)
 
 Earth. That is my price.!
 """
