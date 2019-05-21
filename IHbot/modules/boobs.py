@@ -16,7 +16,6 @@ from IHbot import dispatcher
 from IHbot.__main__ import STATS, USER_INFO
 from IHbot.modules.disable import DisableAbleCommandHandler
 
-@user_admin
 def boobs(bot: Bot, update: Update):
     nsfw = requests.get('http://api.oboobs.ru/noise/1').json()[0]["preview"]
     final = "http://media.oboobs.ru/{}".format(nsfw)
