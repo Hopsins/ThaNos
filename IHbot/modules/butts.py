@@ -23,6 +23,7 @@ def butts(bot: Bot, update: Update):
     update.message.reply_photo(final)
 		
 __help__ = """
+*Admin only:*
  - /boobs: Sends Random Boobs pic.
  - /butts: Sends Random Butts pic.
 """
