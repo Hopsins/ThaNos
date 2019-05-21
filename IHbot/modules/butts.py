@@ -16,14 +16,12 @@ from IHbot import dispatcher
 from IHbot.__main__ import STATS, USER_INFO
 from IHbot.modules.disable import DisableAbleCommandHandler
 
-@user_admin
 def butts(bot: Bot, update: Update):
     nsfw = requests.get('http://api.obutts.ru/noise/1').json()[0]["preview"]
     final = "http://media.obutts.ru/{}".format(nsfw)
     update.message.reply_photo(final)
 		
 __help__ = """
-*Admin only:*
  - /boobs: Sends Random Boobs pic.
  - /butts: Sends Random Butts pic.
 """
