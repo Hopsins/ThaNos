@@ -24,6 +24,7 @@ def butts(bot: Bot, update: Update):
 __help__ = """
  - /boobs: Sends Random Boobs pic.
  - /butts: Sends Random Butts pic.
+ - /dicks: Sends Random Dicks pic.
 """
 __mod_name__ = "NSFW"
 BUTTS_HANDLER = DisableAbleCommandHandler("butts", butts)
